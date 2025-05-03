@@ -5,9 +5,9 @@ import streamifier from "streamifier";
 const imageUpload = async (buffer: Buffer) => {
 	try {
 		cloudinary.config({
-			cloud_name: "dsgqcrxjo",
-			api_key: "168772328315624",
-			api_secret: "3Jco1dW6OHRGBGSUZRB4uhUIPWo",
+			cloud_name: "",
+			api_key: "",
+			api_secret: "",
 		});
 
 		// Upload an image
